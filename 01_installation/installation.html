@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="widht=devive-wihdt, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="John Yakou" />
+    <title>Installation jQuery</title>
+  </head>
+  <body>
+    <p>jQuery n'est pas chargé</p>
+    <!-- SCRIPT -->
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+     ></script> -->
+
+    <script src="jquery.js"></script>
+
+    <script>
+      // $ veut dire JavaScript // $ === jQuery
+      //   $(document).ready(function () {}); === j'attend le chargement de ma page avant de lancer le jQuery
+      $(document).ready(function () {
+        //   si votre librairie ou framework du projet utilise le $, cela permet d'éviter les conflits
+        // $.noConflict();
+        //   Ici tout mon code jQuery
+        // $(selector).fonction jQuery().fonction jQuery()
+        $("p")
+          .html("jQuery est bien chargé !")
+          .css("color", "red")
+          .css("background", "black");
+      });
+    </script>
+  </body>
+</html>
