@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+}
+
+header {
+  background: #393939;
+}
+
+/* DEBUT CLASS ADINAV */
+.adinav {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.logo {
+  width: 30%;
+}
+
+/* ----- DEBUT NAV ----- */
+nav {
+  font-size: 30px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+}
+
+nav ul li a:hover {
+  background: #cb4623;
+  color: black;
+  animation: 1s;
+}
+/* ----- FIN NAV ----- */
+/* FIN CLASS ADINAV */
+
+/* DEBUT CLASS SHOE */
+.shoe {
+  margin: auto;
+  width: 80%;
+  display: none;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.shoe.active {
+  display: block;
+}
+
+.chauss {
+  width: 50%;
+}
+
+.shoe2 {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+div p {
+  width: 90%;
+}
+
+.shoeslide {
+  width: 50%;
+}
+
+.shoeslide img {
+  width: 100%;
+}
+
+div div {
+  margin: 0 20px;
+}
+
+button {
+  display: inline-block;
+  background-color: #cb4623;
+  color: #eeeeee;
+  text-align: center;
+  border: 5px solid #cb4623;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  color: blue;
+}
+
+i {
+  font-size: 75px;
+  margin-top: 120px;
+  color: black;
+}
+
+i:hover {
+  color: red;
+}
